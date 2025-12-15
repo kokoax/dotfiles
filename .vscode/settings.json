@@ -1,2 +1,154 @@
 {
+    // workbench.action.quickOpen でPreview Modeで開かないようにする
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // Vim settings
+    "vim.smartcase": true,
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<C-]>"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        
+        {
+            "before": [
+                "<CR>"
+            ],
+            "after": [
+                "o",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "Y"
+            ],
+            "after": [
+                "y",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "r"
+            ],
+            "commands": [
+                "code-runner.run"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.files.newUntitledFile"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<Tab>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<S-Tab>"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<C-v>",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        // クリップボードの書き換わりを防ぐことができる
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "P",
+            ]
+        }
+    ],
+    "cline.preferredLanguage": "Japanese - 日本語",
+    "workbench.colorTheme": "Jellybeans+",
+    "mcp": {
+        "servers": {}
+    },
+    "mcpManager.servers": [],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "dev.containers.dockerCredentialHelper": false,
+    "dev.containers.dockerComposePath": "/opt/homebrew/bin/docker-compose",
+    "dev.containers.dockerPath": "/opt/homebrew/bin/docker",
 }

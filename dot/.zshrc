@@ -138,6 +138,7 @@ export PATH=$HOME/.roswell/bin:$PATH
 # rust settings
 export PATH=$HOME/.cargo/bin:$PATH
 
+
 # aws cliの補完を有効化
 complete -C '/usr/local/bin/aws_completer' aws
 
@@ -177,4 +178,11 @@ source /opt/homebrew/opt/asdf/libexec/asdf.sh
 source ~/.asdf/plugins/golang/set-env.zsh
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-tmux -u
+for version in $(ls ~/.asdf/installs/golang); do
+  export PATH=$PATH:~/.asdf/installs/golang/$version/bin
+done
+
+export PATH="${PATH}:${HOME}/Library/Android/sdk/emulator"
+export PATH="${PATH}:${HOME}/Library/Android/sdk/platform-tools"
+
+[ -z "$TMUX" ] && tmux -u

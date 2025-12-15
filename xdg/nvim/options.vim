@@ -31,7 +31,7 @@ set shiftwidth=2
 set softtabstop=2
 
 set nocompatible
-set guioptions+=a
+" set guioptions+=a
 
 " set nofoldenable
 set foldmethod=syntax
