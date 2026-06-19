@@ -151,4 +151,5 @@
     "dev.containers.dockerCredentialHelper": false,
     "dev.containers.dockerComposePath": "/opt/homebrew/bin/docker-compose",
     "dev.containers.dockerPath": "/opt/homebrew/bin/docker",
+    "files.insertFinalNewline": true,
 }

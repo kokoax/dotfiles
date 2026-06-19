@@ -1,0 +1,8 @@
+{
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "1",
+    "OTEL_EXPORTER_OTLP_METRICS_ENDPOINT": "https://1z6kt07oq7.execute-api.ap-northeast-1.amazonaws.com/v1/metrics",
+    "OTEL_EXPORTER_OTLP_METRICS_PROTOCOL": "http/json",
+    "OTEL_METRICS_EXPORTER": "otlp"
+  }
+}
