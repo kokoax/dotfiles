@@ -22,12 +22,19 @@
   g = "!f(){ nvim `git grep -n $1 | peco | awk -F ':' '{printf \"+%d %s\", $2, $1}'`;};f"
   openpr = "!f() { hub browse -- `git log --merges --oneline --reverse --ancestry-path $1...master | grep 'Merge pull request #' | head -n 1 | cut -f5 -d' ' | sed -e 's%#%pull/%'`; }; f"
   ls = ls-files
-  get = !ghq get -p
+  get = !ghq get
   list = !ghq list
   root = "!exec $SHELL ; :"
   unget = "!ghq-unget $1"
 	showpr = "!f() { git log --merges --oneline --reverse --ancestry-path $1...master | grep 'Merge pull request #' | head -n 1; }; f"
   rebase = merge
+
+[credential "https://git-codecommit.ap-northeast-1.amazonaws.com"]
+  helper =
+  # helper = !aws-vault exec digitalio-mc-codecommit -- aws codecommit credential-helper $@
+  helper = !aws-vault exec yoshitomo-tokoi@digitalio -- aws codecommit credential-helper $@
+  # helper = !aws-vault exec digitalio-mc-admin -- aws codecommit credential-helper $@
+  UseHttpPath = true
 
 [fetch]
     prune = true

@@ -111,6 +111,8 @@ on-mode-changed = []
     alt-comma = 'layout accordion horizontal vertical'
     alt-t = 'layout accordion horizontal vertical'
     alt-m = 'layout tiles horizontal vertical'
+    alt-f = 'layout floating'
+    alt-shift-t = 'layout tiling'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
     alt-h = 'focus-monitor --wrap-around left'

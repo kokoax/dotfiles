@@ -1,5 +1,8 @@
 {
   "restrictions": {
+    "allow_remote_control": {
+      "allowed": false
+    },
     "allow_quick_web_setup": {
       "allowed": false
     },
@@ -7,5 +10,9 @@
       "allowed": false
     }
   },
-  "compliance_taints": []
+  "compliance_taints": [],
+  "monitoring_notice": null,
+  "defaults": {
+    "remote_control_at_startup": false
+  }
 }

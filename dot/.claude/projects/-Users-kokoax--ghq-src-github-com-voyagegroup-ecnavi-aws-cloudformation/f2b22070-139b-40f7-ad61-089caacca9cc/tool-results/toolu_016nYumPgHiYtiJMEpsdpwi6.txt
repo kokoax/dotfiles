@@ -1,0 +1,1144 @@
+
+
+# AWS services that integrate with AWS PrivateLink
+<a name="aws-services-privatelink-support"></a>
+
+The following AWS services integrate with AWS PrivateLink. You can create a VPC endpoint to connect to these services privately, as if they were running in your own VPC.
+
+Choose the link in the **AWS service** column to see the documentation for services that integrate with AWS PrivateLink. The **Service name** column contains the service name that you specify when you create the interface VPC endpoint, or it indicates that the service manages the endpoint.
+
+
+
+- ** [AWS Account Management](https://docs.aws.amazon.com/accounts/latest/reference/security-privatelink.html) **
+  - com.amazonaws.{{region}}.account
+
+- ** [Amazon API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-private-apis.html) **
+  - com.amazonaws.{{region}}.execute-api
+  - com.amazonaws.{{region}}.apigateway
+
+- **[AWS AppConfig](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-security.html#vpc-interface-endpoints)**
+  - com.amazonaws.{{region}}.appconfig
+  - com.amazonaws.{{region}}.appconfig-fips
+  - com.amazonaws.{{region}}.appconfigdata
+  - com.amazonaws.{{region}}.appconfigdata-fips
+
+- ** [AWS App Mesh](https://docs.aws.amazon.com/app-mesh/latest/userguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.appmesh
+  - com.amazonaws.{{region}}.appmesh-envoy-management
+
+- ** [AWS App Runner](https://docs.aws.amazon.com/apprunner/latest/dg/security-vpce.html) **
+  - com.amazonaws.{{region}}.apprunner
+
+- ** [AWS App Runner services](https://docs.aws.amazon.com/apprunner/latest/dg/network-pl.html) **
+  - com.amazonaws.{{region}}.apprunner.requests
+
+- ** [Application Auto Scaling](https://docs.aws.amazon.com/autoscaling/application/userguide/application-auto-scaling-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.application-autoscaling
+
+- **[AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.discovery
+  - com.amazonaws.{{region}}.arsenal-discovery
+
+- **[AWS Application Migration Service](https://docs.aws.amazon.com/mgn/latest/ug/AWS-Related-FAQ.html#mgn-and-vpc)**
+  - com.amazonaws.{{region}}.mgn
+
+- ** [Amazon WorkSpaces Applications](https://docs.aws.amazon.com/appstream2/latest/developerguide/creating-streaming-from-interface-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.appstream.api
+  - com.amazonaws.{{region}}.appstream.streaming
+
+- **[AWS AppSync](https://docs.aws.amazon.com/appsync/latest/devguide/using-private-apis.html)**
+  - com.amazonaws.{{region}}.appsync-api
+
+- ** [Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/interface-vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.athena
+
+- ** [AWS Audit Manager](https://docs.aws.amazon.com/audit-manager/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.auditmanager
+
+- ** [Amazon Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.rds
+  - com.amazonaws.{{region}}.rds-fips
+
+- **[Amazon Aurora DSQL](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/privatelink-managing-clusters.html)**
+  - com.amazonaws.{{region}}.dsql
+
+- ** [AWS Auto Scaling](https://docs.aws.amazon.com/autoscaling/plans/userguide/scaling-plan-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.autoscaling-plans
+
+- **[AWS B2B Data Interchange](https://docs.aws.amazon.com/b2bi/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.b2bi
+
+- **[AWS Backup](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-network.html#backup-privatelink)**
+  - com.amazonaws.{{region}}.backup
+  - com.amazonaws.{{region}}.backup-gateway
+
+- **[AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.batch
+
+- **[Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/usingVPC.html)**
+  - com.amazonaws.{{region}}.bedrock
+  - com.amazonaws.{{region}}.bedrock-agent
+  - com.amazonaws.{{region}}.bedrock-agent-runtime
+  - com.amazonaws.{{region}}.bedrock-data-automation
+  - com.amazonaws.{{region}}.bedrock-data-automation-fips
+  - com.amazonaws.{{region}}.bedrock-data-automation-runtime
+  - com.amazonaws.{{region}}.bedrock-data-automation-runtime-fips
+  - com.amazonaws.{{region}}.bedrock-runtime
+
+- **[Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/vpc.html)**
+  - com.amazonaws.{{region}}.bedrock-agentcore-control
+  - com.amazonaws.{{region}}.bedrock-agentcore
+
+- **[AWS Billing and Cost Management](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.billing
+  - com.amazonaws.{{region}}.freetier
+  - com.amazonaws.{{region}}.tax
+
+- **[AWS Billing Conductor](https://docs.aws.amazon.com/billingconductor/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.billingconductor
+
+- ** [Amazon Braket](https://docs.aws.amazon.com/braket/latest/developerguide/braket-privatelink.html)**
+  - com.amazonaws.{{region}}.braket
+
+- ** [AWS Certificate Manager](https://docs.aws.amazon.com/acm/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.acm
+  - com.amazonaws.{{region}}.acm-fips
+
+- **[AWS Clean Rooms](https://docs.aws.amazon.com/clean-rooms/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.cleanrooms
+  - com.amazonaws.{{region}}.cleanrooms-fips
+
+- **[AWS Clean Rooms ML](https://docs.aws.amazon.com/clean-rooms/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.cleanrooms-ml
+
+- ** [AWS Cloud Control API](https://docs.aws.amazon.com/cloudcontrolapi/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.cloudcontrolapi
+  - com.amazonaws.{{region}}.cloudcontrolapi-fips
+
+- ** [Amazon Cloud Directory](https://docs.aws.amazon.com/clouddirectory/latest/developerguide/getting_started_using_vpc_endpoints.html) **
+  - com.amazonaws.{{region}}.clouddirectory
+
+- ** [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.cloudformation
+  - com.amazonaws.{{region}}.cloudformation-fips
+
+- **[Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)**
+  - com.amazonaws.cloudfront
+
+- ** [AWS CloudHSM](https://docs.aws.amazon.com/cloudhsm/latest/userguide/cloudhsm-vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.cloudhsmv2
+
+- ** [AWS Cloud Map](https://docs.aws.amazon.com/cloud-map/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.servicediscovery
+  - com.amazonaws.{{region}}.servicediscovery-fips
+  - com.amazonaws.{{region}}.data-servicediscovery
+  - com.amazonaws.{{region}}.data-servicediscovery-fips
+
+- ** [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-and-interface-VPC.html) **
+  - com.amazonaws.{{region}}.cloudtrail
+
+- **AWS Cloud WAN**
+  - com.amazonaws.{{region}}.networkmanager
+
+- ** [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-and-interface-VPC.html) **
+  - com.amazonaws.{{region}}.application-signals
+  - com.amazonaws.{{region}}.applicationinsights
+  - com.amazonaws.{{region}}.internetmonitor
+  - com.amazonaws.{{region}}.internetmonitor-fips
+  - com.amazonaws.{{region}}.monitoring
+  - com.amazonaws.{{region}}.networkflowmonitor
+  - com.amazonaws.{{region}}.networkflowmonitorreports
+  - com.amazonaws.{{region}}.networkmonitor
+  - com.amazonaws.{{region}}.observabilityadmin
+  - com.amazonaws.{{region}}.rum
+  - com.amazonaws.{{region}}.rum-dataplane
+  - com.amazonaws.{{region}}.synthetics
+  - com.amazonaws.{{region}}.synthetics-fips
+  - com.amazonaws.{{region}}.oam
+
+- ** [Amazon CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/cloudwatch-logs-and-interface-VPC.html) **
+  - com.amazonaws.{{region}}.logs
+
+- ** [AWS CodeArtifact](https://docs.aws.amazon.com/codeartifact/latest/ug/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.codeartifact.api
+  - com.amazonaws.{{region}}.codeartifact.repositories
+
+- ** [AWS CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/use-vpc-endpoints-with-codebuild.html) **
+  - com.amazonaws.{{region}}.codebuild
+  - com.amazonaws.{{region}}.codebuild-fips
+
+- ** [AWS CodeCommit](https://docs.aws.amazon.com/codecommit/latest/userguide/codecommit-and-interface-VPC.html) **
+  - com.amazonaws.{{region}}.codecommit
+  - com.amazonaws.{{region}}.codecommit-fips
+  - com.amazonaws.{{region}}.git-codecommit
+  - com.amazonaws.{{region}}.git-codecommit-fips
+
+- **[AWS CodeConnections](https://docs.aws.amazon.com/dtconsole/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.codeconnections.api
+  - com.amazonaws.{{region}}.codestar-connections.api
+
+- ** [AWS CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.codedeploy
+  - com.amazonaws.{{region}}.codedeploy-commands-secure
+  - com.amazonaws.{{region}}.codedeploy-fips
+
+- ** [Amazon CodeGuru Profiler](https://docs.aws.amazon.com/codeguru/latest/profiler-ug/private-link.html) **
+  - com.amazonaws.{{region}}.codeguru-profiler
+
+- ** [Amazon CodeGuru Reviewer](https://docs.aws.amazon.com/codeguru/latest/reviewer-ug/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.codeguru-reviewer
+
+- ** [AWS CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/vpc-support.html#use-vpc-endpoints-with-codepipeline) **
+  - com.amazonaws.{{region}}.codepipeline
+
+- ** [Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.comprehend
+  - com.amazonaws.{{region}}.comprehend-fips
+
+- ** [Amazon Comprehend Medical](https://docs.aws.amazon.com/comprehend-medical/latest/dev/comprehendmedical-vpcendpoints.html) **
+  - com.amazonaws.{{region}}.comprehendmedical
+
+- **AWS Compute Optimizer**
+  - com.amazonaws.{{region}}.compute-optimizer
+
+- ** [AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/config-VPC-endpoints.html) **
+  - com.amazonaws.{{region}}.config
+  - com.amazonaws.{{region}}.config-fips
+
+- ** [Connect Customer](https://docs.aws.amazon.com/connect/latest/adminguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.app-integrations
+  - com.amazonaws.{{region}}.cases
+  - com.amazonaws.{{region}}.connect
+  - com.amazonaws.{{region}}.connect-fips
+  - com.amazonaws.{{region}}.connect-campaigns
+  - com.amazonaws.{{region}}.profile
+  - com.amazonaws.{{region}}.voiceid
+  - com.amazonaws.{{region}}.wisdom
+
+- **AWS Connector Service**
+  - com.amazonaws.{{region}}.awsconnector
+
+- ** [AWS Control Catalog](https://docs.aws.amazon.com/controlcatalog/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.controlcatalog
+
+- **AWS Cost Explorer**
+  - com.amazonaws.{{region}}.ce
+
+- **AWS Cost Optimization Hub**
+  - com.amazonaws.{{region}}.cost-optimization-hub
+
+- ** [AWS Control Tower](https://docs.aws.amazon.com/controltower/latest/userguide/networking-privatelink.html)**
+  - com.amazonaws.{{region}}.controltower
+  - com.amazonaws.{{region}}.controltower-fips
+
+- ** [AWS Data Exchange](https://docs.aws.amazon.com/data-exchange/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.dataexchange
+
+- **AWS Data Exports**
+  - aws.api.{{region}}.bcm-data-exports
+  - com.amazonaws.{{region}}.bcm-pricing-calculator
+
+- ** [Amazon Data Firehose](https://docs.aws.amazon.com/firehose/latest/dev/vpc.html) **
+  - com.amazonaws.{{region}}.kinesis-firehose
+
+- ** [Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/ebs/latest/userguide/dlm-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.dlm
+  - com.amazonaws.{{region}}.dlm-fips
+
+- ** [AWS Database Migration Service](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Security.html#infrastructure-security) **
+  - com.amazonaws.{{region}}.dms
+  - com.amazonaws.{{region}}.dms-fips
+
+- ** [AWS DataSync](https://docs.aws.amazon.com/datasync/latest/userguide/choose-service-endpoint.html) **
+  - com.amazonaws.{{region}}.datasync
+
+- ** [Amazon DataZone](https://docs.aws.amazon.com/datazone/latest/userguide/datazone-vpc.html) **
+  - com.amazonaws.{{region}}.datazone
+  - com.amazonaws.{{region}}.datazone-fips
+
+- **[AWS Deadline Cloud](https://docs.aws.amazon.com/deadline-cloud/latest/developerguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.deadline.management
+  - com.amazonaws.{{region}}.deadline.scheduling
+
+- **[Amazon Detective](https://docs.aws.amazon.com/detective/latest/userguide/detective-security-vpc-endpoints-privatelink.html)**
+  - com.amazonaws.{{region}}.detective
+  - com.amazonaws.{{region}}.detective-fips
+
+- ** [Amazon DevOps Guru](https://docs.aws.amazon.com/devops-guru/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.devops-guru
+
+- **AWS Direct Connect**
+  - com.amazonaws.{{region}}.directconnect
+  - com.amazonaws.{{region}}.directconnect-fips
+
+- ** [AWS Directory Service](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.ds
+  - com.amazonaws.{{region}}.ds-data
+  - com.amazonaws.{{region}}.ds-data-fips
+
+- **[Amazon DocumentDB](https://docs.aws.amazon.com/documentdb/latest/developerguide/docdb-private-link.html)**
+  - com.amazonaws.{{region}}.rds
+
+- ** [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/privatelink-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.dynamodb
+  - com.amazonaws.{{region}}.dynamodb-fips
+  - com.amazonaws.{{region}}.dynamodb-streams
+
+- ** [Amazon EBS direct APIs](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-apis-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.ebs
+  - com.amazonaws.{{region}}.ebs-fips
+
+- ** [Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/interface-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.ec2
+  - com.amazonaws.{{region}}.ec2-fips
+
+- ** [Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.autoscaling
+  - com.amazonaws.{{region}}.autoscaling-fips
+
+- ** [EC2 Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.imagebuilder
+
+- ** [Amazon ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.ecr.api
+  - com.amazonaws.{{region}}.ecr.dkr
+
+- ** [Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.ecs
+  - com.amazonaws.{{region}}.ecs-agent
+  - com.amazonaws.{{region}}.ecs-telemetry
+
+- **[Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.eks
+  - com.amazonaws.{{region}}.eks-auth
+  - com.amazonaws.{{region}}.eks-fips
+  - com.amazonaws.{{region}}.eks-proxy
+
+- ** [AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/vpc-vpce.html) **
+  - com.amazonaws.{{region}}.elasticbeanstalk
+  - com.amazonaws.{{region}}.elasticbeanstalk-health
+
+- **[AWS Elastic Disaster Recovery](https://docs.aws.amazon.com/drs/latest/userguide/installing-agent-blocked.html)**
+  - com.amazonaws.{{region}}.drs
+
+- ** [Amazon Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/efs-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.elasticfilesystem
+  - com.amazonaws.{{region}}.elasticfilesystem-fips
+
+- ** [Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/load-balancer-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.elasticloadbalancing
+
+- **Amazon Elastic VMware Service**
+  - com.amazonaws.{{region}}.evs
+  - com.amazonaws.{{region}}.evs-fips
+
+- ** [Amazon ElastiCache](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/elasticache-privatelink.html) **
+  - com.amazonaws.{{region}}.elasticache
+  - com.amazonaws.{{region}}.elasticache-fips
+
+- ** [AWS Elemental MediaConnect](https://docs.aws.amazon.com/mediaconnect/latest/ug/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.mediaconnect
+
+- **AWS Elemental MediaConvert**
+  - com.amazonaws.{{region}}.mediaconvert
+  - com.amazonaws.{{region}}.mediaconvert-fips
+
+- ** [Amazon EMR](https://docs.aws.amazon.com/emr/latest/ManagementGuide/interface-vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.elasticmapreduce
+  - com.amazonaws.{{region}}.elasticmapreduce-fips
+
+- **[Amazon EMR on EKS](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/security-vpc.html)**
+  - com.amazonaws.{{region}}.emr-containers
+
+- **Amazon EMR Serverless**
+  - com.amazonaws.{{region}}.emr-serverless
+  - com.amazonaws.{{region}}.emr-serverless-services.livy
+  - com.amazonaws.{{region}}.emr-serverless.dashboard
+
+- **[Amazon EMR WAL](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-hbase-wal-privatelink.html)**
+  - com.amazonaws.{{region}}.emrwal.prod
+
+- **[AWS End User Messaging Social](https://docs.aws.amazon.com/social-messaging/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.social-messaging
+  - com.amazonaws.{{region}}.social-messaging-fips
+
+- ** [AWS Entity Resolution](https://docs.aws.amazon.com/entityresolution/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.entityresolution
+  - com.amazonaws.{{region}}.entityresolution-fips
+
+- ** [Amazon EventBridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-related-service-vpc.html) **
+  - com.amazonaws.{{region}}.events
+  - com.amazonaws.{{region}}.events-fips
+  - com.amazonaws.{{region}}.pipes
+  - com.amazonaws.{{region}}.pipes-data
+  - com.amazonaws.{{region}}.pipes-fips
+  - com.amazonaws.{{region}}.schemas
+
+- **[Amazon EventBridge Scheduler](https://docs.aws.amazon.com/scheduler/latest/UserGuide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.scheduler
+
+- ** [AWS Fault Injection Service](https://docs.aws.amazon.com/fis/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.fis
+  - com.amazonaws.{{region}}.fis-fips
+
+- ** [Amazon FinSpace](https://docs.aws.amazon.com/finspace/latest/userguide/infrastructure-security.html#connect-vpce) **
+  - com.amazonaws.{{region}}.finspace
+  - com.amazonaws.{{region}}.finspace-api
+
+- **AWS Firewall Manager**
+  - com.amazonaws.{{region}}.fms
+  - com.amazonaws.{{region}}.fms-fips
+
+- ** [Amazon Forecast](https://docs.aws.amazon.com/forecast/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.forecast
+  - com.amazonaws.{{region}}.forecastquery
+  - com.amazonaws.{{region}}.forecast-fips
+  - com.amazonaws.{{region}}.forecastquery-fips
+
+- ** [Amazon Fraud Detector](https://docs.aws.amazon.com/frauddetector/latest/ug/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.frauddetector
+
+- **Amazon FSx**
+  - com.amazonaws.{{region}}.fsx
+  - com.amazonaws.{{region}}.fsx-fips
+
+- **Amazon GameLift Servers**
+  - com.amazonaws.{{region}}.gamelift
+
+- **[Amazon GameLift Streams](https://docs.aws.amazon.com/gameliftstreams/latest/developerguide/infrastructure-security-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.gameliftstreams
+
+- **AWS Global Networks for Transit Gateways**
+  - com.amazonaws.{{region}}.networkmanager
+
+- ** [AWS Glue](https://docs.aws.amazon.com/glue/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.glue
+  - com.amazonaws.{{region}}.glue.dashboard
+
+- ** [AWS Glue DataBrew](https://docs.aws.amazon.com/databrew/latest/dg/vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.databrew
+  - com.amazonaws.{{region}}.databrew-fips
+
+- ** [Amazon Managed Grafana](https://docs.aws.amazon.com/grafana/latest/userguide/VPC-endpoints.html) **
+  - com.amazonaws.{{region}}.grafana
+  - com.amazonaws.{{region}}.grafana-workspace
+
+- **AWS Ground Station**
+  - com.amazonaws.{{region}}.groundstation
+  - com.amazonaws.{{region}}.groundstation-fips
+
+- **[Amazon GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/security-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.guardduty
+  - com.amazonaws.{{region}}.guardduty-data
+  - com.amazonaws.{{region}}.guardduty-data-fips
+  - com.amazonaws.{{region}}.guardduty-fips
+
+- ** [AWS HealthImaging](https://docs.aws.amazon.com/healthimaging/latest/devguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.dicom-medical-imaging
+  - com.amazonaws.{{region}}.medical-imaging
+  - com.amazonaws.{{region}}.runtime-medical-imaging
+
+- ** [AWS HealthLake](https://docs.aws.amazon.com/healthlake/latest/devguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.healthlake
+
+- **[AWS HealthOmics](https://docs.aws.amazon.com/omics/latest/dev/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.analytics-omics
+  - com.amazonaws.{{region}}.analytics-omics-fips
+  - com.amazonaws.{{region}}.control-storage-omics
+  - com.amazonaws.{{region}}.control-storage-omics-fips
+  - com.amazonaws.{{region}}.storage-omics
+  - com.amazonaws.{{region}}.tags-omics
+  - com.amazonaws.{{region}}.tags-omics-fips
+  - com.amazonaws.{{region}}.workflows-omics
+  - com.amazonaws.{{region}}.workflows-omics-fips
+
+- ** [AWS Identity and Access Management (IAM)](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_interface_vpc_endpoints.html) **
+  - com.amazonaws.iam
+
+- **IAM Access Analyzer**
+  - com.amazonaws.{{region}}.access-analyzer
+  - com.amazonaws.{{region}}.access-analyzer-fips
+
+- **IAM Identity Center**
+  - com.amazonaws.{{region}}.identitystore
+
+- ** [IAM Roles Anywhere](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.rolesanywhere
+  - com.amazonaws.{{region}}.rolesanywhere-fips
+
+- **Amazon Inspector**
+  - com.amazonaws.{{region}}.inspector2
+  - com.amazonaws.{{region}}.inspector2-fips
+  - com.amazonaws.{{region}}.inspector-scan
+  - com.amazonaws.{{region}}.inspector-scan-fips
+
+- **Amazon Interactive Video Service**
+  - com.amazonaws.{{region}}.ivs.contribute
+
+- ** [AWS IoT Core](https://docs.aws.amazon.com/iot/latest/developerguide/IoTCore-VPC.html) **
+  - com.amazonaws.{{region}}.iot.api
+  - com.amazonaws.{{region}}.iot-fips.api
+  - com.amazonaws.{{region}}.iot.data
+  - com.amazonaws.{{region}}.iot.credentials
+
+- ** [AWS IoT Device Management secure tunneling](https://docs.aws.amazon.com/iot/latest/developerguide/IoTCore-ST-VPC.html) **
+  - com.amazonaws.{{region}}.iot.tunneling.api
+  - com.amazonaws.{{region}}.iot-fips.tunneling.api
+  - com.amazonaws.{{region}}.iot.tunneling.data
+  - com.amazonaws.{{region}}.iot-fips.tunneling.data
+
+- ** [AWS IoT Core Device Advisor](https://docs.aws.amazon.com/iot/latest/developerguide/device-advisor-vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.deviceadvisor.iot
+
+- ** [Managed integrations for AWS IoT Device Management](https://docs.aws.amazon.com/iot-mi/latest/devguide/interface-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.iotmanagedintegrations.api
+  - com.amazonaws.{{region}}.iotmanagedintegrations-fips.api
+
+- ** [AWS IoT Core for LoRaWAN](https://docs.aws.amazon.com/iot-wireless/latest/developerguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.iotwireless.api
+  - com.amazonaws.{{region}}.lorawan.cups
+  - com.amazonaws.{{region}}.lorawan.lns
+
+- **AWS IoT FleetWise**
+  - com.amazonaws.{{region}}.iotfleetwise
+
+- ** [AWS IoT Greengrass](https://docs.aws.amazon.com/greengrass/v2/developerguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.greengrass
+
+- **AWS IoT RoboRunner**
+  - com.amazonaws.{{region}}.iotroborunner
+
+- ** [AWS IoT SiteWise](https://docs.aws.amazon.com/iot-sitewise/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.iotsitewise.api
+  - com.amazonaws.{{region}}.iotsitewise.data
+
+- ** [AWS IoT TwinMaker](https://docs.aws.amazon.com/iot-twinmaker/latest/guide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.iottwinmaker.api
+  - com.amazonaws.{{region}}.iottwinmaker.data
+
+- ** [Amazon Kendra](https://docs.aws.amazon.com/kendra/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.kendra
+  - aws.api.{{region}}.kendra-ranking
+
+- ** [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/kms-vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.kms
+  - com.amazonaws.{{region}}.kms-fips
+
+- ** [Amazon Keyspaces (for Apache Cassandra)](https://docs.aws.amazon.com/keyspaces/latest/devguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.cassandra
+  - com.amazonaws.{{region}}.cassandra-fips
+
+- ** [Amazon Kinesis Data Streams](https://docs.aws.amazon.com/streams/latest/dev/vpc.html) **
+  - com.amazonaws.{{region}}.kinesis-streams
+  - com.amazonaws.{{region}}.kinesis-streams-fips
+
+- ** [AWS Lake Formation](https://docs.aws.amazon.com/lake-formation/latest/dg/privatelink.html)**
+  - com.amazonaws.{{region}}.lakeformation
+
+- ** [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.lambda
+
+- **AWS Launch Wizard**
+  - com.amazonaws.{{region}}.launchwizard
+
+- ** [Amazon Lex](https://docs.aws.amazon.com/lexv2/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.models-v2-lex
+  - com.amazonaws.{{region}}.runtime-v2-lex
+
+- ** [AWS License Manager](https://docs.aws.amazon.com/license-manager/latest/userguide/interface-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.license-manager
+  - com.amazonaws.{{region}}.license-manager-fips
+  - com.amazonaws.{{region}}.license-manager-linux-subscriptions
+  - com.amazonaws.{{region}}.license-manager-linux-subscriptions-fips
+  - com.amazonaws.{{region}}.license-manager-user-subscriptions
+  - com.amazonaws.{{region}}.license-manager-user-subscriptions-fips
+
+- ** Amazon Lightsail **
+  - com.amazonaws.{{region}}.lightsail
+
+- ** [Amazon Location Service](https://docs.aws.amazon.com/location/latest/developerguide/privatelink-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.geo.maps
+  - com.amazonaws.{{region}}.geo.places
+  - com.amazonaws.{{region}}.geo.routes
+  - com.amazonaws.{{region}}.geo.geofencing
+  - com.amazonaws.{{region}}.geo.tracking
+  - com.amazonaws.{{region}}.geo.metadata
+
+- ** [Amazon Lookout for Equipment](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.lookoutequipment
+
+- ** [Amazon Lookout for Vision](https://docs.aws.amazon.com/lookout-for-vision/latest/developer-guide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.lookoutvision
+
+- **[Amazon Macie](https://docs.aws.amazon.com/macie/latest/user/vpc-interface-endpoints-macie.html)**
+  - com.amazonaws.{{region}}.macie2
+  - com.amazonaws.{{region}}.macie2-fips
+
+- **[AWS Mainframe Modernization](https://docs.aws.amazon.com/m2/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.apptest
+  - com.amazonaws.{{region}}.m2
+
+- **Amazon Managed Blockchain**
+  - com.amazonaws.{{region}}.managedblockchain-query
+  - com.amazonaws.{{region}}.managedblockchain.bitcoin.mainnet
+  - com.amazonaws.{{region}}.managedblockchain.bitcoin.testnet
+
+- **AWS Marketplace Agreement**
+  - com.amazonaws.{{region}}.agreement-marketplace
+
+- **AWS Marketplace Discovery**
+  - com.amazonaws.{{region}}.discovery-marketplace
+
+- **AWS Marketplace Metering Service**
+  - com.amazonaws.{{region}}.metering-marketplace
+
+- **[Amazon Managed Service for Prometheus](https://docs.aws.amazon.com/prometheus/latest/userguide/AMP-and-interface-VPC.html)**
+  - com.amazonaws.{{region}}.aps
+  - com.amazonaws.{{region}}.aps-workspaces
+
+- **[Amazon Managed Streaming for Apache Kafka (MSK)](https://docs.aws.amazon.com/msk/latest/developerguide/privatelink-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.kafka
+  - com.amazonaws.{{region}}.kafka-fips
+
+- ** [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/mwaa/latest/userguide/vpc-vpe-create-access.html) **
+  - com.amazonaws.{{region}}.airflow.api
+  - com.amazonaws.{{region}}.airflow.api-fips
+  - com.amazonaws.{{region}}.airflow.env
+  - com.amazonaws.{{region}}.airflow.env-fips
+  - com.amazonaws.{{region}}.airflow.ops
+
+- **Amazon Route 53**
+  - com.amazonaws.route53
+
+- **[Amazon Route 53 Global Resolver](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/gr-what-is-global-resolver.html)**
+  - aws.api.us-east-2.route53globalresolver
+  - aws.api.us-east-2.route53globalresolver-fips
+
+- **[AWS Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/console-private-access.html)**
+  - com.amazonaws.{{region}}.console
+  - com.amazonaws.{{region}}.signin
+
+- ** [Amazon MemoryDB](https://docs.aws.amazon.com/memorydb/latest/devguide/memorydb-privatelink.html) **
+  - com.amazonaws.{{region}}.memory-db
+  - com.amazonaws.{{region}}.memorydb-fips
+
+- **[AWS Migration Hub Orchestrator](https://docs.aws.amazon.com/migrationhub-orchestrator/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.migrationhub-orchestrator
+
+- **[AWS Migration Hub Refactor Spaces](https://docs.aws.amazon.com/migrationhub-refactor-spaces/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.refactor-spaces
+
+- **[ Migration Hub Strategy Recommendations](https://docs.aws.amazon.com/migrationhub-strategy/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.migrationhub-strategy
+
+- ** [Amazon MQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/connect-to-amazonmq.html) **
+  - com.amazonaws.{{region}}.mq
+  - com.amazonaws.{{region}}.mq-fips
+
+- **Amazon Neptune Analytics**
+  - com.amazonaws.{{region}}.neptune-graph
+  - com.amazonaws.{{region}}.neptune-graph-data
+  - com.amazonaws.{{region}}.neptune-graph-fips
+
+- **[AWS Network Firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.network-firewall
+  - com.amazonaws.{{region}}.network-firewall-fips
+
+- **[Amazon OpenSearch Service](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/vpc-interface-endpoints.html)**
+  - These endpoints are service-managed
+
+- **[Amazon OpenSearch Ingestion](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/osis-access-apis-using-privatelink.html)**
+  - com.amazonaws.{{region}}.osis
+
+- **[AWS Organizations](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_security_privatelink.html)**
+  - com.amazonaws.{{region}}.organizations
+  - com.amazonaws.{{region}}.organizations-fips
+
+- **AWS Outposts**
+  - com.amazonaws.{{region}}.outposts
+
+- **[AWS Panorama](https://docs.aws.amazon.com/panorama/latest/dev/api-endpoints.html)**
+  - com.amazonaws.{{region}}.panorama
+
+- **AWS Payment Cryptography**
+  - com.amazonaws.{{region}}.payment-cryptography.controlplane
+  - com.amazonaws.{{region}}.payment-cryptography.dataplane
+
+- ** [AWS PCS](https://docs.aws.amazon.com/pcs/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.pcs
+  - com.amazonaws.{{region}}.pcs-fips
+
+- **[Amazon Personalize](https://docs.aws.amazon.com/personalize/latest/dg/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.personalize
+  - com.amazonaws.{{region}}.personalize-events
+  - com.amazonaws.{{region}}.personalize-runtime
+
+- **[Amazon Pinpoint](https://docs.aws.amazon.com/pinpoint/latest/developerguide/security-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.pinpoint
+  - com.amazonaws.{{region}}.pinpoint-sms-voice-v2
+
+- **[Amazon Polly](https://docs.aws.amazon.com/polly/latest/dg/using-polly-with-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.polly
+  - com.amazonaws.{{region}}.polly-fips
+
+- **[AWS Price List](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.pricing.api
+
+- ** [AWS Private Certificate Authority](https://docs.aws.amazon.com/privateca/latest/userguide/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.acm-pca
+  - com.amazonaws.{{region}}.acm-pca-fips
+  - com.amazonaws.{{region}}.pca-connector-ad
+  - com.amazonaws.{{region}}.pca-connector-scep
+
+- ** [AWS Proton](https://docs.aws.amazon.com/proton/latest/userguide/infrastructure-security.html#vpc-interface-endpoints) **
+  - com.amazonaws.{{region}}.proton
+
+- **[Amazon Q Business](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/vpc-interface-endpoints.html)**
+  - aws.api.{{region}}.qbusiness
+
+- **[Amazon Q Developer](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.codewhisperer
+  - com.amazonaws.{{region}}.q
+  - com.amazonaws.{{region}}.qapps
+
+- **Amazon Q User Subscriptions**
+  - com.amazonaws.{{region}}.service.user-subscriptions
+
+- **[Quick](https://docs.aws.amazon.com/quicksight/latest/developerguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.quicksight-website
+
+- ** [Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.rds
+  - com.amazonaws.{{region}}.rds-fips
+
+- ** [Amazon RDS Data API](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html#data-api.vpc-endpoint) **
+  - com.amazonaws.{{region}}.rds-data
+
+- ** [Amazon RDS Performance Insights](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/pi-vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.pi
+  - com.amazonaws.{{region}}.pi-fips
+
+- **AWS re:Post Private**
+  - com.amazonaws.{{region}}.repostspace
+
+- **[Recycle Bin](https://docs.aws.amazon.com//ebs/latest/userguide/rbin-vpcendpoints.html)**
+  - com.amazonaws.{{region}}.rbin
+  - com.amazonaws.{{region}}.rbin-fips
+
+- ** [Amazon Redshift](https://docs.aws.amazon.com/redshift/latest/mgmt/security-network-isolation.html#security-private-link) **
+  - com.amazonaws.{{region}}.redshift
+  - com.amazonaws.{{region}}.redshift-fips
+  - com.amazonaws.{{region}}.redshift-serverless
+  - com.amazonaws.{{region}}.redshift-serverless-fips
+
+- ** [Amazon Redshift Data API](https://docs.aws.amazon.com/redshift/latest/mgmt/data-api-access.html#data-api-vpc-endpoint) **
+  - com.amazonaws.{{region}}.redshift-data
+  - com.amazonaws.{{region}}.redshift-data-fips
+
+- ** [Amazon Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/vpc.html) **
+  - com.amazonaws.{{region}}.rekognition
+  - com.amazonaws.{{region}}.rekognition-fips
+  - com.amazonaws.{{region}}.streaming-rekognition
+  - com.amazonaws.{{region}}.streaming-rekognition-fips
+
+- **[AWS Resource Access Manager](https://docs.aws.amazon.com/ram/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.ram
+  - com.amazonaws.{{region}}.ram-fips
+
+- **[AWS Resource Explorer](https://docs.aws.amazon.com/resource-explorer/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.resource-explorer-2
+  - com.amazonaws.{{region}}.resource-explorer-2-fips
+
+- **[AWS Resource Groups](https://docs.aws.amazon.com/ARG/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.resource-groups
+  - com.amazonaws.{{region}}.resource-groups-fips
+
+- **[AWS Resource Groups Tagging API](https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.tagging
+
+- ** [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.s3
+  - com.amazonaws.{{region}}.s3tables
+
+- **[Amazon S3 Multi-Region Access Points](https://docs.aws.amazon.com/AmazonS3/latest/userguide/MultiRegionAccessPointsPrivateLink.html)**
+  - com.amazonaws.s3-global.accesspoint
+
+- **[Amazon S3 on Outposts](https://docs.aws.amazon.com/AmazonS3/latest/s3-outposts/s3-outposts-privatelink-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.s3-outposts
+
+- ** [Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/notebook-interface-endpoint.html) **
+  - aws.sagemaker.{{region}}.experiments
+  - aws.sagemaker.{{region}}.notebook
+  - aws.sagemaker.{{region}}.partner-app
+  - aws.sagemaker.{{region}}.studio
+  - com.amazonaws.{{region}}.sagemaker-data-science-assistant
+  - com.amazonaws.{{region}}.sagemaker.api
+  - com.amazonaws.{{region}}.sagemaker.api-fips
+  - com.amazonaws.{{region}}.sagemaker.featurestore-runtime
+  - com.amazonaws.{{region}}.sagemaker.featurestore-runtime-fips
+  - com.amazonaws.{{region}}.sagemaker.metrics
+  - com.amazonaws.{{region}}.sagemaker.runtime
+  - com.amazonaws.{{region}}.sagemaker.runtime-fips
+
+- **Savings Plans**
+  - com.amazonaws.savingsplans
+
+- ** [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/vpc-endpoint-overview.html) **
+  - com.amazonaws.{{region}}.secretsmanager
+
+- ** [AWS Security Agent](https://docs.aws.amazon.com/securityagent/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.securityagent
+
+- **[AWS Security Hub CSPM](https://docs.aws.amazon.com/securityhub/latest/userguide/security-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.securityhub
+  - com.amazonaws.{{region}}.securityhub-fips
+
+- ** [Amazon Security Lake](https://docs.aws.amazon.com/security-lake/latest/userguide/security-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.securitylake
+  - com.amazonaws.{{region}}.securitylake-fips
+
+- ** [AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_interface_vpc_endpoints.html) **
+  - com.amazonaws.{{region}}.sts
+  - com.amazonaws.{{region}}.sts-fips
+
+- ** [AWS Serverless Application Repository](https://docs.aws.amazon.com/serverlessrepo/latest/devguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.serverlessrepo
+
+- **Service Catalog**
+  - com.amazonaws.{{region}}.servicecatalog
+  - com.amazonaws.{{region}}.servicecatalog-appregistry
+
+- **Service Quotas**
+  - com.amazonaws.{{region}}.servicequotas
+
+- ** [Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/send-email-set-up-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.email-smtp
+  - com.amazonaws.{{region}}.mail-manager
+  - com.amazonaws.{{region}}.mail-manager-fips
+  - com.amazonaws.{{region}}.mail-manager-smtp.auth.fips
+  - com.amazonaws.{{region}}.mail-manager-smtp.open.fips
+
+- **AWS Snowball Edge Device Management**
+  - com.amazonaws.{{region}}.snow-device-management
+
+- ** [Amazon SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-internetwork-traffic-privacy.html) **
+  - com.amazonaws.{{region}}.sns
+
+- ** [Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-internetwork-traffic-privacy.html#sqs-vpc-endpoints) **
+  - com.amazonaws.{{region}}.sqs
+  - com.amazonaws.{{region}}.sqs-fips
+
+- ** [Amazon SWF](https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.swf
+  - com.amazonaws.{{region}}.swf-fips
+
+- ** [AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/vpc-endpoints.html) **
+  - com.amazonaws.{{region}}.states
+  - com.amazonaws.{{region}}.sync-states
+
+- **AWS Storage Gateway**
+  - com.amazonaws.{{region}}.storagegateway
+
+- **[AWS Supply Chain](https://docs.aws.amazon.com/aws-supply-chain/latest/adminguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.scn
+
+- ** [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/setup-create-vpc.html) **
+  - com.amazonaws.{{region}}.ec2messages
+  - com.amazonaws.{{region}}.ssm
+  - com.amazonaws.{{region}}.ssm-contacts
+  - com.amazonaws.{{region}}.ssm-incidents
+  - com.amazonaws.{{region}}.ssm-incidents-fips
+  - com.amazonaws.{{region}}.ssm-quicksetup
+  - com.amazonaws.{{region}}.ssmmessages
+
+- **AWS Systems Manager for SAP**
+  - com.amazonaws.{{region}}.ssm-sap
+  - com.amazonaws.{{region}}.ssm-sap-fips
+
+- **AWS Telco Network Builder**
+  - com.amazonaws.{{region}}.tnb
+
+- ** [Amazon Textract](https://docs.aws.amazon.com/textract/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.textract
+  - com.amazonaws.{{region}}.textract-fips
+
+- **[Amazon Timestream](https://docs.aws.amazon.com/timestream/latest/developerguide/VPCEndpoints.html)**
+  - com.amazonaws.{{region}}.timestream.ingest-{{cell}}
+  - com.amazonaws.{{region}}.timestream.query-{{cell}}
+
+- **[Amazon Timestream for InfluxDB](https://docs.aws.amazon.com/timestream/latest/developerguide/timestream-influxb-privatelink.html)**
+  - com.amazonaws.{{region}}.timestream-influxdb
+  - com.amazonaws.{{region}}.timestream-influxdb-fips
+
+- ** [Amazon Transcribe](https://docs.aws.amazon.com/transcribe/latest/dg/vulnerability-analysis-and-management.html) **
+  - com.amazonaws.{{region}}.transcribe
+  - com.amazonaws.{{region}}.transcribe-fips
+  - com.amazonaws.{{region}}.transcribestreaming
+
+- **com.amazonaws.{{region}}.transcribestreaming-fips**
+
+- ** [Amazon Transcribe Medical](https://docs.aws.amazon.com/transcribe/latest/dg/med-vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.transcribe
+  - com.amazonaws.{{region}}.transcribestreaming
+
+- **AWS Transfer for SFTP**
+  - com.amazonaws.{{region}}.transfer
+  - com.amazonaws.{{region}}.transfer.server
+
+- ** [AWS Transform](https://docs.aws.amazon.com/transform/latest/userguide/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.transform
+
+- ** [AWS Transform custom](https://docs.aws.amazon.com/transform/latest/userguide/vpc-interface-endpoints-transform-custom.html) **
+  - com.amazonaws.{{region}}.transform-custom
+
+- ** [Amazon Translate](https://docs.aws.amazon.com/translate/latest/dg/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.translate
+
+- **AWS Trusted Advisor**
+  - com.amazonaws.{{region}}.trustedadvisor
+
+- **[AWS User Notifications](https://docs.aws.amazon.com/notifications/latest/userguide/vpc.html)**
+  - com.amazonaws.{{region}}.notifications
+  - com.amazonaws.{{region}}.notifications-contacts
+
+- **[Amazon Verified Permissions](https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.verifiedpermissions
+  - com.amazonaws.{{region}}.verifiedpermissions-fips
+
+- ** [Amazon VPC Lattice](https://docs.aws.amazon.com/vpc-lattice/latest/ug/vpc-interface-endpoints.html) **
+  - com.amazonaws.{{region}}.vpc-lattice
+
+- **AWS WAFV2**
+  - com.amazonaws.{{region}}.wafv2
+  - com.amazonaws.{{region}}.wafv2-fips
+
+- **AWS Well-Architected Tool**
+  - com.amazonaws.{{region}}.wellarchitected
+
+- **Amazon WorkMail**
+  - com.amazonaws.{{region}}.workmail
+  - com.amazonaws.{{region}}.workmailmessageflow
+
+- ** [Amazon WorkSpaces](https://docs.aws.amazon.com/workspaces/latest/adminguide/infrastructure-security.html#interface-vpc-endpoint) **
+  - com.amazonaws.{{region}}.workspaces
+
+- **[Amazon WorkSpaces Secure Browser](https://docs.aws.amazon.com/workspaces-web/latest/adminguide/private-link.html)**
+  - com.amazonaws.{{region}}.workspaces-web
+  - com.amazonaws.{{region}}.workspaces-web-fips
+
+- **[WorkSpaces streaming](https://docs.aws.amazon.com/workspaces/latest/adminguide/creating-streaming-vpc-endpoints.html)**
+  - com.amazonaws.{{region}}.highlander
+
+- **[Amazon WorkSpaces Thin Client](https://docs.aws.amazon.com/workspaces-thin-client/latest/ag/vpc-interface-endpoints.html)**
+  - com.amazonaws.{{region}}.thinclient.api
+
+- **aws.api.{{region}}.s3files**
+
+- **aws.api.{{region}}.s3files-fips**
+
+- ** [AWS X-Ray](https://docs.aws.amazon.com/xray/latest/devguide/xray-security-vpc-endpoint.html) **
+  - com.amazonaws.{{region}}.xray
+
+- ** [Amazon Managed Service for Apache Flink](https://docs.aws.amazon.com//managed-flink/latest/java/vpc-internet.html) **
+  - com.amazonaws.{{region}}.kinesisanalytics
+  - com.amazonaws.{{region}}.kinesisanalytics-fips
+
+
+
+## View available AWS service names
+<a name="vpce-view-available-services"></a>
+
+You can use the [describe-vpc-endpoint-services](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-vpc-endpoint-services.html) command to view the service names that support VPC endpoints.
+
+The following example displays the AWS services that support interface endpoints in the specified Region. The `--query` option limits the output to the service names.
+
+```
+aws ec2 describe-vpc-endpoint-services \
+  --filters Name=service-type,Values=Interface Name=owner,Values=amazon \ 
+  --region {{us-east-1}} \
+  --query ServiceNames
+```
+
+The following is example output. The complete output is not shown.
+
+```
+[
+    "api.aws.us-east-1.cassandra-streams",
+    "aws.api.us-east-1.bcm-data-exports",
+    "aws.api.us-east-1.emr-service-cell01",
+    "aws.api.us-east-1.freetier",
+    "aws.api.us-east-1.kendra-ranking",
+    "aws.api.us-east-1.qbusiness",
+    . . .
+     "com.amazonaws.us-east-1.xray"
+]
+```
+
+## View information about a service
+<a name="vpce-view-service-details"></a>
+
+After you have the service name, you can use the [describe-vpc-endpoint-services](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-vpc-endpoint-services.html) command to view detailed information about each endpoint service.
+
+The following example displays information about the Amazon CloudWatch interface endpoint in the specified Region.
+
+```
+aws ec2 describe-vpc-endpoint-services \
+  --service-name "com.amazonaws.us-east-1.monitoring" \
+  --region {{us-east-1}}
+```
+
+The following is example output. `VpcEndpointPolicySupported` indicates whether [endpoint policies](vpc-endpoints-access.md) are supported. `SupportedIpAddressTypes` indicates which IP address types are supported .
+
+```
+{
+    "ServiceDetails": [
+        {
+            "ServiceName": "com.amazonaws.us-east-1.monitoring",
+            "ServiceId": "vpce-svc-0fc975f3e7e5beba4",
+            "ServiceType": [
+                {
+                    "ServiceType": "Interface"
+                }
+            ],
+            "AvailabilityZones": [
+                "us-east-1a",
+                "us-east-1b",
+                "us-east-1c",
+                "us-east-1d",
+                "us-east-1e",
+                "us-east-1f"
+            ],
+            "Owner": "amazon",
+            "BaseEndpointDnsNames": [
+                "monitoring.us-east-1.vpce.amazonaws.com"
+            ],
+            "PrivateDnsName": "monitoring.us-east-1.amazonaws.com",
+            "PrivateDnsNames": [
+                {
+                    "PrivateDnsName": "monitoring.us-east-1.amazonaws.com"
+                },
+                {
+                    "PrivateDnsName": "monitoring.us-east-1.api.aws"
+                },
+                {
+                    "PrivateDnsName": "monitoring-fips.us-east-1.amazonaws.com"
+                },
+                {
+                    "PrivateDnsName": "monitoring-fips.us-east-1.api.aws"
+                }            ],
+            "VpcEndpointPolicySupported": true,
+            "AcceptanceRequired": false,
+            "ManagesVpcEndpoints": false,
+            "Tags": [],
+            "PrivateDnsNameVerificationState": "verified",
+            "SupportedIpAddressTypes": [
+                "ipv6",
+                "ipv4"
+            ]
+        }
+    ],
+    "ServiceNames": [
+        "com.amazonaws.us-east-1.monitoring"
+    ]
+}
+```
+
+## View endpoint policy support
+<a name="vpce-endpoint-policy-support"></a>
+
+To verify whether a service supports [endpoint policies](vpc-endpoints-access.md), call the [describe-vpc-endpoint-services](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-vpc-endpoint-services.html) command and check the value of `VpcEndpointPolicySupported`. The possible values are `true` and `false`.
+
+The following example checks whether the specified service supports endpoint policies in the specified Region. The `--query` option limits the output to the value of `VpcEndpointPolicySupported`.
+
+```
+aws ec2 describe-vpc-endpoint-services \
+  --service-name "{{com.amazonaws.us-east-1.s3}}" \
+  --region {{us-east-1}} \
+  --query ServiceDetails[*].VpcEndpointPolicySupported \
+  --output text
+```
+
+The following is example output.
+
+```
+True
+```
+
+The following example lists the AWS services that support endpoint policies in the specified Region. The `--query` option limits the output to the service names. To run this command using the Windows command prompt, remove the single quotes around the query string, and change the line continuation character from \\ to ^.
+
+```
+aws ec2 describe-vpc-endpoint-services \
+  --filters Name=service-type,Values=Interface Name=owner,Values=amazon \
+  --region {{us-east-1}} \
+  --query 'ServiceDetails[?VpcEndpointPolicySupported==`true`].ServiceName'
+```
+
+The following is example output. The complete output is not shown.
+
+```
+[
+    "api.aws.us-east-1.cassandra-streams",
+    "aws.api.us-east-1.bcm-data-exports",
+    "aws.api.us-east-1.emr-service-cell01",
+    "aws.api.us-east-1.freetier",
+    "aws.api.us-east-1.kendra-ranking",
+    . . .
+    "com.amazonaws.us-east-1.xray"
+]
+```
+
+The following example lists the AWS services that do not support endpoint policies in the specified Region. The `--query` option limits the output to the service names. To run this command using the Windows command prompt, remove the single quotes around the query string, and change the line continuation character from \\ to ^.
+
+```
+aws ec2 describe-vpc-endpoint-services \
+  --filters Name=service-type,Values=Interface Name=owner,Values=amazon \
+  --region {{us-east-1}} \
+  --query 'ServiceDetails[?VpcEndpointPolicySupported==`false`].ServiceName'
+```
+
+The following is example output. The complete output is not shown.
+
+```
+[
+    "com.amazonaws.us-east-1.appmesh-envoy-management",
+    "com.amazonaws.us-east-1.apprunner.requests",
+    "com.amazonaws.us-east-1.appstream.api",
+    "com.amazonaws.us-east-1.appstream.streaming",
+    "com.amazonaws.us-east-1.awsconnector",
+    . . .
+    "com.amazonaws.us-east-1.transfer.server"
+]
+```
+
+## View IPv6 support
+<a name="vpce-ipv6-support"></a>
+
+To view IPv6 support for AWS services, see [AWS services that support IPv6](https://docs.aws.amazon.com/vpc/latest/userguide/aws-ipv6-support.html#ipv6-service-support). You can also use the following [describe-vpc-endpoint-services](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-vpc-endpoint-services.html) command to view the AWS services that you can access over IPv6 in the specified Region. The `--query` option limits the output to the service names.
+
+```
+aws ec2 describe-vpc-endpoint-services \
+  --filters Name=supported-ip-address-types,Values=ipv6 Name=owner,Values=amazon Name=service-type,Values=Interface \
+  --region {{us-east-1}} \
+  --query ServiceNames
+```
+
+The following is example output. The complete output is not shown.
+
+```
+[
+    "api.aws.us-east-1.cassandra-streams",
+    "aws.api.us-east-1.bcm-data-exports",
+    "aws.api.us-east-1.freetier",
+    "aws.api.us-east-1.kendra-ranking",
+    "aws.api.us-east-1.qbusiness",
+    "aws.api.us-east-1.resource-explorer-2",
+    "aws.api.us-east-1.resource-explorer-2-fips",
+    "aws.sagemaker.us-east-1.experiments",
+    "aws.sagemaker.us-east-1.partner-app",
+    "com.amazonaws.iam",
+    "com.amazonaws.us-east-1.access-analyzer",
+    "com.amazonaws.us-east-1.account",
+    . . .
+    "com.amazonaws.us-east-1.xray"
+]
+```
