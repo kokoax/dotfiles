@@ -174,8 +174,8 @@ export TERMINFO=/usr/share/terminfo
 export PATH="/Users/kokoax/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
- #source /opt/homebrew/opt/asdf/libexec/asdf.sh
-source ~/.asdf/plugins/golang/set-env.zsh
+# source /opt/homebrew/opt/asdf/libexec/asdf.sh
+# source ~/.asdf/plugins/golang/set-env.zsh
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 for version in $(ls ~/.asdf/installs/golang); do

@@ -31,7 +31,6 @@
 
 [credential "https://git-codecommit.ap-northeast-1.amazonaws.com"]
   helper =
-  # helper = !aws-vault exec digitalio-mc-codecommit -- aws codecommit credential-helper $@
   helper = !aws-vault exec yoshitomo-tokoi@digitalio -- aws codecommit credential-helper $@
   # helper = !aws-vault exec digitalio-mc-admin -- aws codecommit credential-helper $@
   UseHttpPath = true
@@ -48,4 +47,4 @@
 # 	templatedir = $HOME/.git_template/
 
 [ghq]
-   root = /Users/kokoax/.ghq/src
+   root = /Users/y_tokoi/.ghq/src
